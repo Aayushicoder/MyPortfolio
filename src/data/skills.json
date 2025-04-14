@@ -1,0 +1,51 @@
+[
+    {
+      "title": "HTML",
+      "imageSrc": "assets/skills/html.png"
+    },
+    {
+      "title": "CSS",
+      "imageSrc": "assets/skills/css.png"
+    },
+    {
+      "title": "Javascript",
+      "imageSrc": "assets/skills/java-script.png"
+    },
+    {
+      "title": "React",
+      "imageSrc": "assets/skills/react.png"
+    },
+    {
+      "title": "Redux Toolkit",
+      "imageSrc": "assets/skills/ReduxToolkit.png"
+    },
+    {
+      "title": "Node",
+      "imageSrc": "assets/skills/node.png"
+    },
+    {
+      "title": "Express",
+      "imageSrc": "assets/skills/express.png"
+    },
+    {
+      "title": "Socket.io",
+      "imageSrc": "assets/skills/socket.io.png"
+    },
+    {
+      "title": "MongoDB",
+      "imageSrc": "assets/skills/mongodb.png"
+    },
+    {
+      "title": "MySQL",
+      "imageSrc": "assets/skills/MySql.jpg"
+    },
+    {
+      "title": "C++",
+      "imageSrc": "assets/skills/c++.jpg"
+    },
+    {
+      "title": "DSA",
+      "imageSrc": "assets/skills/dsa.jpg"
+    }
+   
+  ]

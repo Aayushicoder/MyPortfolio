@@ -1,0 +1,120 @@
+@import "../../vars.css";
+
+/* Desktop styles */
+    .navbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 64px;
+    z-index: 2;
+    margin: 0 10%;
+    
+    }
+
+
+.title {
+    font-size: 28px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+  }
+  
+  .title:hover {
+    transform: scale(1.05);
+  }
+  
+  .menu {
+    display: flex;
+    align-items: center;
+  }
+  
+  .menuBtn {
+    display: none;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .menuBtn:hover {
+    transform: scale(1.1);
+  }
+  
+  .menuitems {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+  }
+  
+  .menuitems li a {
+    color: var(--color-text);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    transition: color 0.3s ease;
+  }
+  
+  .menuitems li a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0%;
+    height: 2px;
+    background: var(--color-primary);
+    transition: width 0.3s ease-in-out;
+  }
+  
+  .menuitems li a:hover::after {
+    width: 100%;
+  }
+  
+  .menuitems li a:hover {
+    color: var(--color-primary);
+  }
+  
+  /* Responsive */
+  @media screen and (max-width: 830px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 18px 7%;
+    }
+  
+    .menu {
+      position: relative;
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+    }
+  
+    .menuBtn {
+      display: block;
+    }
+  
+    .menuitems {
+      display: none;
+      flex-direction: column;
+      align-items: flex-end;
+      position: absolute;
+      right: 0;
+      top: 50px;
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(8px);
+      padding: 20px 30px;
+      border-radius: 12px;
+      gap: 15px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+  
+    .menuOpen {
+      display: flex !important;
+    }
+  
+    .menuitems li a {
+      font-size: 18px;
+    }
+  }
