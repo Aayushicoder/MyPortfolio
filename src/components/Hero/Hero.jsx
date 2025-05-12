@@ -11,9 +11,9 @@ const Hero = () => {
                 As a fresher, I'm eager to apply my skills in real-world projects and contribute to innovative solutions.
                  {/* I'm committed to continuous learning and growing in the ever-evolving tech landscape. */}
             </p>
-            <a href="assets/Hero/AayushiResume_fs.pdf" download className={styles.contactBtn}>Resume</a>
+            <a href="/assets/Hero/AayushiResume_fs.pdf" download className={styles.contactBtn}>Resume</a>
         </div>
-        <img src={("assets/Hero/HeroImage.jpeg")} alt="img" className={styles.heroImg}/>
+        <img src={("/assets/Hero/HeroImage.jpeg")} alt="img" className={styles.heroImg}/>
         <div className={styles.topBlur}/>
         <div className={styles.bottomBlur}/>
 

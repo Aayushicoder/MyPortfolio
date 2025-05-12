@@ -1,7 +1,7 @@
 [
     {
       "title": "Chat-app",
-      "imageSrc": "assets/projects/ChatappImg.png",
+      "imageSrc": "/assets/projects/ChatappImg.png",
       "description": "A real-time messaging app supporting one-on-one and group chats with user authentication and chat history.",
       "skills": ["React", "Redux Toolkit","Tailwind CSS", "Express", "Node", "MongoDB", "Socket.io"],
       "demo": "https://chat-app-six-orpin.vercel.app/",
@@ -9,7 +9,7 @@
     },
     {
       "title": "Notely",
-      "imageSrc": "assets/projects/NotelyImg.png",
+      "imageSrc": "/assets/projects/NotelyImg.png",
       "description": "A note-taking app with features to create, update, delete, search, and view notes, along with real-time notifications and persistent storage.",
       "skills": ["React", "Redux Toolkit", "Local Storage", "Tailwind CSS"],
       "demo": "https://notely-topaz.vercel.app/",
@@ -17,7 +17,7 @@
     },
     {
       "title": "BattleForge",
-      "imageSrc": "assets/projects/BattleForgeImg.png",
+      "imageSrc": "/assets/projects/BattleForgeImg.png",
       "description": "A 2D fighting game built with HTML Canvas and JavaScript featuring two-player combat, animated characters, health bars, and a countdown timer.",
       "skills": ["HTML Canvas", "JavaScript"],
       "demo": "https://battle-forge.vercel.app/",
